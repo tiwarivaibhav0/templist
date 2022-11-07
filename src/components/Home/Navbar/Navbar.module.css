@@ -1,0 +1,35 @@
+.navbarContainer 
+{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 1% 0%;
+    background: rgb(11, 162, 217);
+    color: white;
+}
+
+.navHeadingDiv
+{
+    width: 20%;
+}
+
+.navHeadingDiv p
+{
+    font-size: 1.8vw;
+    font-weight: bolder;
+    margin: 0%;
+}
+
+.navMenu 
+{
+    width: 46%;
+    text-align: end;
+    padding: 0% 2%;
+}
+
+.navMenu p
+{
+    font-size: 1.8vw;
+    font-weight: bolder;
+    margin: 0%;
+}

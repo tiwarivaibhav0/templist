@@ -1,0 +1,139 @@
+.entireTableContainer
+{
+    width: 95%;
+    margin: auto;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+.subTable
+{
+    width: min-content;
+}
+
+.popoverOption
+{
+    cursor: pointer;
+    margin-bottom: 0%;
+    margin-left: -10%;
+    margin-right: -10%;
+    padding: 5% 5%;
+}
+
+.popoverOption:hover {
+    background-color: rgb(251, 246, 246);
+}
+
+.panelHeader
+{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.headerFirst
+{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.headerFirst input
+{
+    width: 50%;
+}
+
+.headerSecond
+{
+    width: 50%;
+    text-align: end;
+}
+
+.headerSecond button
+{
+    /* width: 28%; */
+    margin: 0% 2.5%;
+}
+
+
+.tableImage
+{
+    width: 100%;
+}
+
+
+
+.suggestionDiv
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.suggestionImageDiv
+{
+    width: 20%;
+}
+
+.suggestionImageDiv img {
+    width: 100%;
+}
+
+.suggestionDetailsDiv
+{
+    width: 80%;
+    padding: 0% 5%;
+}
+
+.suggestionTitle
+{
+    font-size: 1.4vw;
+    margin: 0% 0%;
+}
+
+.suggestionBrand
+{
+    font-size: 1.1vw;
+    margin: 0% 0%;
+}
+
+.appliedFiltersContainer
+{
+    margin: 2% 0%;
+    display: flex;
+    text-align: start;
+    flex-wrap: wrap;
+}
+
+.appliedFiltersContainer p {
+    background-color: rgb(228, 229, 231, 1);
+    padding: 0% 1%;
+    border-radius: 4px;
+    margin: 0% 1%;
+}
+
+.closeAppliedFilter
+{
+    cursor: pointer;
+}
+
+.drawerSelect
+{
+    margin: 0% 0% 5% 0%;
+}
+
+.viewErrorlink
+{
+    color: rgb(44, 110, 203);
+    cursor: pointer;
+}
+
+.errorModalContent > span
+{
+    text-align: start;
+    width: 100%;
+}
+
+.progressLabel
+{
+    cursor: pointer;
+}

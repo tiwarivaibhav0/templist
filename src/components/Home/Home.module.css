@@ -1,0 +1,90 @@
+.homeContainer
+{
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+
+.homeMainContainer
+{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.listingContainer
+{
+    width: 80%;
+}
+
+.listingHeader
+{
+    width: 95%;
+    margin: auto;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.listingHeaderFirst
+{
+    width: 70%;
+    text-align: start;
+}
+
+.listingFirstHeading
+{
+    font-size: 1.6vw;
+    font-weight: bolder;
+}
+
+.listingFirstSubheading
+{
+    font-size: 1.4vw;
+}
+
+.listingHeaderSecond
+{
+    width: 30%;
+}
+
+.homeMsgContainer
+{
+    width: 95%;
+    padding: 2% 2%;
+    border-radius: 4px;
+    margin: auto;
+    text-align: start;
+    background-color: #FFF5EA;
+    border: 2px solid #E1B878;
+    position: relative;
+}
+
+.closeMsgbtn
+{
+    position: absolute;
+    top: 10%;
+    right: 2%;
+    cursor: pointer;
+}
+
+.msgHeading
+{
+    font-size: 1.5vw;
+}
+
+.msgSubheading
+{
+    opacity: 75%;
+    font-size: 1.3vw;
+}
+
+.msgButtonDiv
+{
+    margin: 3% 0%;
+}
+
+
+
+
+

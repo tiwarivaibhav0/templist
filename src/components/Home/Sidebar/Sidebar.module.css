@@ -1,0 +1,103 @@
+.sidebarContainer
+{
+    width: 20%;   
+    border-right: 1px solid rgb(215, 215, 215);
+    /* padding: 0% 1%; */
+}
+
+.topOptions
+{
+    width: 100%;
+}
+
+.eachSidebarDiv
+{
+    width: 98%;
+    margin: auto;
+    display: flex;
+    font-size: 1.2vw;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding: 0% 1%;
+    cursor: pointer;
+}
+
+.icons
+{
+    width: 20%;
+    color: #5C5F62;
+}
+
+.option
+{
+    width: 80%;
+    text-align: start;
+    color: #202223;
+    font-weight: bolder;
+}
+
+.middleHeader
+{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    opacity: 75%;
+}
+
+.middleHeading
+{
+    font-size: 1.3vw;
+    font-weight: bolder;
+    padding: 0% 5%;
+}
+
+.middleHeadingIcon
+{
+    font-size: 1.3vw;
+    margin: 0% 3%;
+}
+
+.middleOptions
+{
+    width: 100%;
+    margin: 20% 0%;
+}
+
+
+.eachMiddleFaded
+{
+    width: 100%;
+    display: flex;
+    font-size: 1.2vw;
+    margin: 5% 0%;
+    opacity: 75%;
+    cursor: pointer;
+}
+
+.iconsFaded
+{
+    width: 20%;
+    color: #5C5F62;
+    visibility: hidden;
+}
+
+.eachMiddleFaded:hover > .iconsFaded
+{
+    visibility: visible;
+}
+
+.optionfaded
+{
+    width: 80%;
+    text-align: start;
+    color: #202223;
+    font-weight: bolder;
+}
+
+.bottomOption
+{
+    width: 100%;
+    margin: 10% 0%;
+    display: flex;
+    justify-content: space-between;
+}
